@@ -4,7 +4,7 @@ library(geodata)
 
 peru <- geodata::gadm("PE", path = "2023-01-02_regions/") %>%
   st_as_sf() %>%
-  mutate(
+  mutate( # to prepare for merging Lima and Lima Province
     REGIÓN = if_else(
       NAME_1 %in% c("Lima", "Lima Province"),
       "Lima",
@@ -18,7 +18,7 @@ peru <- geodata::gadm("PE", path = "2023-01-02_regions/") %>%
   ungroup()
 
 
-# From: c
+# Source: 'Inventario Nacional de Recursos Turísticos'
 # https://www.datosabiertos.gob.pe/dataset/inventario-nacional-de-recursos-tur%C3%ADsticos
 attractions_csv <-  "2023-01-02_regions/Inventario_recursos_turisticos.csv"
 download.file(
@@ -28,7 +28,7 @@ download.file(
 
 attractions <- read_csv2(
   "2023-01-02_regions/Inventario_recursos_turisticos.csv",
-  locale = locale(encoding = "WINDOWS-1252")
+  locale = locale(encoding = "WINDOWS-1252") # pick correct encoding of original data
 ) %>%
   mutate(
     FECHA_DE_CORTE = lubridate::ymd(FECHA_DE_CORTE),
