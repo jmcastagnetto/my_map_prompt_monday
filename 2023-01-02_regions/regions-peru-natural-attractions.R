@@ -2,7 +2,7 @@ library(tidyverse)
 library(sf)
 library(geodata)
 
-peru <- geodata::gadm("PE", path = "2023-01-02_regions/") %>%
+peru <- geodata::gadm("PE", path = "common-data/") %>%
   st_as_sf() %>%
   mutate( # to prepare for merging Lima and Lima Province
     REGIÓN = if_else(
@@ -20,24 +20,28 @@ peru <- geodata::gadm("PE", path = "2023-01-02_regions/") %>%
 
 # Source: 'Inventario Nacional de Recursos Turísticos'
 # https://www.datosabiertos.gob.pe/dataset/inventario-nacional-de-recursos-tur%C3%ADsticos
-attractions_csv <-  "2023-01-02_regions/Inventario_recursos_turisticos.csv"
-download.file(
-  url = "https://www.mincetur.gob.pe/Datos_abiertos/DGET/Inventario_recursos_turisticos.csv",
-  destfile = attractions_csv
-)
+attractions_csv <- "common-data/Inventario_recursos_turisticos.csv"
+attractions_rds <- "common-data/peru-touristic-resources.rds"
 
-attractions <- read_csv2(
-  "2023-01-02_regions/Inventario_recursos_turisticos.csv",
-  locale = locale(encoding = "WINDOWS-1252") # pick correct encoding of original data
-) %>%
-  mutate(
-    FECHA_DE_CORTE = lubridate::ymd(FECHA_DE_CORTE),
-    REGIÓN = iconv(REGIÓN, to = "ASCII//TRANSLIT")
+if (!file.exists(attractions_csv)) {
+  download.file(
+    url = "https://www.mincetur.gob.pe/Datos_abiertos/DGET/Inventario_recursos_turisticos.csv",
+    destfile = attractions_csv
   )
 
-saveRDS(attractions, "2023-01-02_regions/peru-touristic-resources.rds")
+  attractions <- read_csv2(
+    attractions_csv,
+    locale = locale(encoding = "WINDOWS-1252") # pick correct encoding of original data
+  ) %>%
+    mutate(
+      FECHA_DE_CORTE = lubridate::ymd(FECHA_DE_CORTE),
+      REGIÓN = iconv(REGIÓN, to = "ASCII//TRANSLIT")
+    )
 
-attractions_region <- attractions %>%
+  saveRDS(attractions, attractions_rds)
+}
+
+attractions_region <- readRDS(attractions_rds) %>%
   group_by(REGIÓN, CATEGORÍA) %>%
   tally()
 
