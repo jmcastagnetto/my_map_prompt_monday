@@ -6,7 +6,7 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-02
   - Data source: https://www.datosabiertos.gob.pe/dataset/inventario-nacional-de-recursos-tur%C3%ADsticos
 
-- Heatmap  [2023-01-09_heatmap](2023-01-09_heatmap)
+- Heatmap  [2023-01-09_heatmap](2023-01-09_heatmap): A simple heatmap showing the locations of health establishments in Loreto, Perú. Most are closer to the biggest cities in the region, as expected.
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-09
   - Data source: https://www.datosabiertos.gob.pe/dataset/establecimientos-de-salud
   
