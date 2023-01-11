@@ -2,7 +2,7 @@ library(tidyverse)
 library(sf)
 library(geodata)
 
-peru <- geodata::gadm("PE", path = "common-data/") %>%
+peru <- gadm("PE", path = "common-data/") %>%
   st_as_sf() %>%
   mutate( # to prepare for merging Lima and Lima Province
     REGIÓN = if_else(
