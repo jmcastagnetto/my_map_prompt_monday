@@ -3,7 +3,9 @@ library(sf)
 library(geodata)
 
 # Original data from: https://www.datosabiertos.gob.pe/dataset/poblaci%C3%B3n-identificada-con-dni-registro-nacional-de-identificaci%C3%B3n-y-estado-civil-reniec
-if (!file.exists("common-data/reniec-dni-2022Q4.rds")) {
+
+rds_fn <- "common-data/reniec-dni-2022Q4.rds"
+if (!file.exists(rds_fn)) {
   reniec <- read_csv(
     "common-data/16_OPP_2022_Dic.csv.gz",
     col_types = cols(
@@ -17,18 +19,21 @@ if (!file.exists("common-data/reniec-dni-2022Q4.rds")) {
     )
   saveRDS(
     reniec,
-    file = "common-data/reniec-dni-2022Q4.rds"
+    file = rds_fn
   )
 }
 
-peruvians_abroad <- readRDS("common-data/reniec-dni-2022Q4.rds") %>%
+# get world map from "Natural Earth"
+world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
+
+peruvians_abroad <- readRDS(rds_fn) %>%
   filter(Residencia == "Extranjero") %>%
   group_by(Pais) %>%
   summarise(
     total = sum(Cantidad),
     .groups = "drop"
   ) %>%
-  mutate(
+  mutate(  # mappings to put RENIEC data into the map
     Pais = str_replace_all(
       Pais,
       c(
@@ -77,7 +82,7 @@ peruvians_abroad <- readRDS("common-data/reniec-dni-2022Q4.rds") %>%
     )
   )
 
-world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
+
 world_peruvians <- world %>%
   left_join(
     peruvians_abroad,
