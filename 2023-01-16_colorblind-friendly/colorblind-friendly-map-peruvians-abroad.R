@@ -21,7 +21,7 @@ if (!file.exists("common-data/reniec-dni-2022Q4.rds")) {
   )
 }
 
-peruvians_outside <- readRDS("common-data/reniec-dni-2022Q4.rds") %>%
+peruvians_abroad <- readRDS("common-data/reniec-dni-2022Q4.rds") %>%
   filter(Residencia == "Extranjero") %>%
   group_by(Pais) %>%
   summarise(
@@ -80,7 +80,7 @@ peruvians_outside <- readRDS("common-data/reniec-dni-2022Q4.rds") %>%
 world <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf")
 world_peruvians <- world %>%
   left_join(
-    peruvians_outside,
+    peruvians_abroad,
     by = c("name_es" = "Pais")
   ) %>%
   select(
@@ -134,3 +134,10 @@ map_peruvian_abroad <- ggplot() +
     subtitle = "Source: \"Población identificada con DNI\" (RENIEC)",
     caption = "2023-01-16, Jesus M. Castagnetto, @jmcastagnetto@mastodon.social"
   )
+
+ggsave(
+  plot = map_peruvian_abroad,
+  filename = "2023-01-16_colorblind-friendly/map-peruvians-abroad.png",
+  width = 14,
+  height = 9
+)
