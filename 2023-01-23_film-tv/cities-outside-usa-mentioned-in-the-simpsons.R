@@ -16,6 +16,8 @@ if (!file.exists("common-data/simplemaps_worldcities_basicv1.75.zip")) {
     which = "worldcities.csv"
   )[[1]]
   saveRDS(cities, "common-data/world_cities.rds")
+} else {
+  cities <- readRDS("common-data/world_cities.rds")
 }
 
 if (!file.exists("2023-01-23_film-tv/simpson-cities.csv")) {
@@ -64,6 +66,8 @@ if (!file.exists("2023-01-23_film-tv/simpson-cities.csv")) {
       )
     )
   write_csv(simpson_cities, "2023-01-23_film-tv/simpson-cities.csv")
+} else {
+  simpson_cities <- read_csv("2023-01-23_film-tv/simpson-cities.csv")
 }
 
 tmp <- simpson_cities %>%
@@ -102,6 +106,7 @@ simpsons_cities_map <- ggplot() +
     legend.key.height = unit(1, "cm"),
     axis.title = element_blank(),
     axis.text = element_blank(),
+    axis.ticks = element_blank(),
     plot.title.position = "plot",
     plot.title = element_text(size = 28, face = "bold"),
     plot.subtitle = element_text(size = 17, color = "gray40"),
