@@ -112,7 +112,7 @@ simpsons_cities_map <- ggplot() +
     fill = "World Bank\nIncome Group",
     title = "Cities outside USA mentioned in \"The Simpsons\" (TV series)",
     subtitle = "Sources: https://simpsons.fandom.com and https://simplemaps.com/data/world-cities",
-    caption = "2023-01-23, Jesus M. Castagnetto\n@jmcastagnetto@mastodon.social"
+    caption = "2023-01-23, Jesus M. Castagnetto, @jmcastagnetto@mastodon.social"
   )
 
 ggsave(
