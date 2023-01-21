@@ -14,3 +14,8 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-16
   - Data source: https://www.datosabiertos.gob.pe/dataset/poblaci%C3%B3n-identificada-con-dni-registro-nacional-de-identificaci%C3%B3n-y-estado-civil-reniec
 
+- Film/TV: [2023-01-23_film-tv](2023-01-23_film-tv): A map of the cities outside USA that have been mentioned in "The Simpsons" (TV Series).
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-23
+  - Data Sources:
+    - https://simpsons.fandom.com/wiki/List_of_towns_and_cities
+    - https://simplemaps.com/data/world-cities
