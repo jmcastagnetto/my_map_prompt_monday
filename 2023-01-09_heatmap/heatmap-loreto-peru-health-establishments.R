@@ -45,8 +45,8 @@ plot_loreto <- ggplot() +
   stat_density2d(
     data = eess_loreto,
     aes(x = longitud, y = latitud,
-        fill = ..level..,
-        alpha = ..level..),
+        fill = after_stat(level),
+        alpha = after_stat(level)),
     size = 0.01,
     bins = 28,
     geom = "polygon") +
@@ -80,7 +80,7 @@ plot_loreto <- ggplot() +
     fill = "Density\nof Locations",
     title = "Health establishments in Loreto, Peru",
     subtitle = "Source: 'Establecimientos de Salud' (MINSA)",
-    caption = "2023-01-09, Jesus M. Castagnetto\n@jmcastagnetto@mastodon.social"
+    caption = "#MapPromptMonday // 2023-01-09, Jesus M. Castagnetto\n@jmcastagnetto@mastodon.social"
   ) +
   theme_bw() +
   theme(

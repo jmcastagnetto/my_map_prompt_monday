@@ -137,7 +137,7 @@ map_peruvian_abroad <- ggplot() +
     fill = "Peruvians\nabroad",
     title = "Distribution of peruvians living abroad",
     subtitle = "Source: \"Población identificada con DNI\" (RENIEC)",
-    caption = "2023-01-16, Jesus M. Castagnetto, @jmcastagnetto@mastodon.social"
+    caption = "#MapPromptMonday // 2023-01-16, Jesus M. Castagnetto, @jmcastagnetto@mastodon.social"
   )
 
 ggsave(

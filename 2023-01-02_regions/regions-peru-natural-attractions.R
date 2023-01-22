@@ -76,7 +76,7 @@ plot_peru_attractions <- ggplot() +
   labs(
     title = "Natural tourist attractions in Perú",
     subtitle = "Source: 'Inventario Nacional de Recursos Turísticos' (MINCETUR)",
-    caption = "2023-01-03, Jesus M. Castagnetto\n@jmcastagnetto@mastodon.social",
+    caption = "#MapPromptMonday // 2023-01-03, Jesus M. Castagnetto\n@jmcastagnetto@mastodon.social",
     fill = "Number of\nattractions"
   )
 
