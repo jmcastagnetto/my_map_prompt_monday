@@ -1,0 +1,25 @@
+from;to;by
+London, England;Paris, France;boat
+Paris, France;Turin, Italy;rail
+Turin, Italy;Brindisi, Italy;rail
+Brindisi, Italy;Suez, Egypt;steamer
+Suez, Egypt;Aden, Yemen;steamer
+Aden, Yemen;Bombay, India;steamer
+Bombay, India;Allahabad, India;rail
+Allahabad, India;Calcutta, India;rail
+Calcutta, India;Singapore, Singapore;steamer
+Singapore, Singapore;Hong Kong, Hong Kong;steamer
+Hong Kong, Hong Kong;Shanghai, China;steamer
+Shanghai, China;Yokohama, Japan;steamer
+Yokohama, Japan;San Francisco, USA;steamer
+San Francisco, USA;Salt Lake City, USA;rail
+Salt Lake City, USA;Medicine Bow, USA;rail
+Medicine Bow, USA;Fort Kearney, USA;rail
+Fort Kearney, USA;Omaha, USA;rail
+Omaha, USA;Chicago, USA;rail
+Chicago, USA;New York City, USA;rail
+New York City, USA;Queenstown, Ireland;steamer
+Queenstown, Ireland;Dublin, Ireland;rail
+Dublin, Ireland;Liverpool, England;boat
+Liverpool, England;London, England;rail
+
