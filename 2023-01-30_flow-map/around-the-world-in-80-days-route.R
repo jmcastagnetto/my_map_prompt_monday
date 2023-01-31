@@ -46,7 +46,6 @@ route <- route %>%
     to_lng = lng
   )
 
-rosm::osm.types()
 set.seed(13579)
 
 map_80days <- ggplot() +
