@@ -19,3 +19,8 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Data Sources:
     - https://simpsons.fandom.com/wiki/List_of_towns_and_cities
     - https://simplemaps.com/data/world-cities
+
+- Flow Map [[2023-01-30_flow-map](2023-01-30_flow-map)]: A map of the locations visited in the book ["Around the World in Eighty Days" by Jules Verne](https://www.gutenberg.org/ebooks/103) (link to ebook at the Gutenberg project)
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-30
+  - Data Source:
+    - https://en.wikivoyage.org/wiki/Around_the_World_in_Eighty_Days
