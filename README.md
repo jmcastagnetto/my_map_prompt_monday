@@ -24,3 +24,9 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-30
   - Data Source:
     - https://en.wikivoyage.org/wiki/Around_the_World_in_Eighty_Days
+
+- Climate/Weather [2023-02-06_climate-weather](2023-02-06_climate-weather): A map showing the differences in average annual temperature in the regions in Peru, using the periods from 1961-1990 and 1991-2020.
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-02-06
+  - Data Sources:
+    - https://climateknowledgeportal.worldbank.org/country/peru/climate-data-historical
+    - https://climateknowledgeportal.worldbank.org/download-data 
