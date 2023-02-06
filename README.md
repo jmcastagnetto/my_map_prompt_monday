@@ -30,3 +30,9 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Data Sources:
     - https://climateknowledgeportal.worldbank.org/country/peru/climate-data-historical
     - https://climateknowledgeportal.worldbank.org/download-data 
+
+- Bivariate Map [2023-02-13_bivariate-maps](2023-02-13_bivariate-maps): A map of Peru using the information on Government Density (a measure of institutional government presence), and the HDI (Human Development Index, 2019) vary in Peru at the level of provinces. It is clear that locations in the Coast of Peru tend to have both more government presence and better HDI.
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-02-13
+  - Data Sources: 
+    - Originally from: https://www.ceplan.gob.pe/informacion-sobre-zonas-y-departamentos-del-peru/
+    - Data pre-processed at: https://github.com/jmcastagnetto/ubigeo-peru-aumentado/
