@@ -36,3 +36,9 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Data Sources: 
     - Originally from: https://www.ceplan.gob.pe/informacion-sobre-zonas-y-departamentos-del-peru/
     - Data pre-processed at: https://github.com/jmcastagnetto/ubigeo-peru-aumentado/
+    
+- Black and White / Grayscale [2023-02-20_bw-grayscale](2023-02-20_bw-grayscale): Maps showing the increment in cases of Dengue in Peru from 2022 to 2023, using data up to epidemiological week #6 of each year.
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-02-20
+  - Data Source:
+    - "Sala Situacional de Dengue": https://www.dge.gob.pe/sala-situacional-dengue/ (data downloaded on 2023-02-19)
+    
