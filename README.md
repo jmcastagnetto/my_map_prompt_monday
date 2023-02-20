@@ -42,3 +42,8 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Data Source:
     - "Sala Situacional de Dengue": https://www.dge.gob.pe/sala-situacional-dengue/ (data downloaded on 2023-02-19)
     
+- NGO Data [2023-02-27_ngo-data](2023-02-27_ngo-data): A map showing the percentage of population per Oblast in Ukraine, considered as "people in need" according to the Humanitarian Needs Overview of OCHA (as of Feb 15, 2023).
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-02-27
+  - Data Source:
+    - "Ukraine: Humanitarian Needs Overview": https://data.humdata.org/dataset/ukraine-hno
+    
