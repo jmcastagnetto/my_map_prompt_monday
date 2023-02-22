@@ -47,3 +47,8 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Data Source:
     - "Ukraine: Humanitarian Needs Overview": https://data.humdata.org/dataset/ukraine-hno
     
+- Favorite Animal [2023-03-06_favorite-animal](2023-03-06_favorite-animal): A map showing the geographical range for the Andean Bear (*Tremarctos ornatus*).
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-06
+  - Data Sources:
+    - "Andean Bear": https://www.iucnredlist.org/species/22066/123792952
+    - Bear image: https://commons.wikimedia.org/wiki/File:OursChaparriF_(12).jpg
