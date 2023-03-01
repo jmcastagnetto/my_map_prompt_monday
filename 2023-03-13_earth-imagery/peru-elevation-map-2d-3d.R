@@ -1,5 +1,4 @@
 library(tidyverse)
-library(tmap)
 library(stars)
 library(geodata)
 library(rayshader)
@@ -40,10 +39,12 @@ p1 <- ggplot() +
     panel.background = element_rect(fill = "white", color = "white"),
     legend.key.height = unit(2, "cm"),
     legend.title = element_text(size = 18, hjust = 0.5),
-    legend.text = element_text(size = 16)
+    legend.text = element_text(size = 16),
+    plot.caption = element_text(family = "Inconsolata", size = 18)
   ) +
   labs(
-    fill = "Elevation\n(meters)"
+    fill = "Elevation\n(meters)",
+    caption = "#MapPromptMonday 2023-01-03\nJesus M. Castagnetto @jmcastagnetto@mastodon.social"
   )
 
 # 2D map
@@ -77,7 +78,8 @@ p1b <- p1 +
     size = 8
   ) +
   theme(
-    legend.position = "none"
+    legend.position = "none",
+    plot.caption = element_text(family = "Inconsolata", size = 6)
   )
 #p1b
 
@@ -86,7 +88,7 @@ plot_gg(
   multicore = TRUE,
   scale = 75,
   shadow = FALSE,
-  baseshape = "circle",
+  #baseshape = "circle",
   basedepth = 0,
   basecolor = "white",
   solid = FALSE,
@@ -95,7 +97,7 @@ plot_gg(
 )
 render_resize_window(width = 1200, height = 1000)
 render_camera(
-  zoom = .5,
+  zoom = .65,
   phi = 45,
   theta = -15
 )
