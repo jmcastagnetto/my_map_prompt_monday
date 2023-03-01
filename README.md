@@ -36,19 +36,24 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Data Sources: 
     - Originally from: https://www.ceplan.gob.pe/informacion-sobre-zonas-y-departamentos-del-peru/
     - Data pre-processed at: https://github.com/jmcastagnetto/ubigeo-peru-aumentado/
-    
+
 - Black and White / Grayscale [2023-02-20_bw-grayscale](2023-02-20_bw-grayscale): Maps showing the increment in cases of Dengue in Peru from 2022 to 2023, using data up to epidemiological week #6 of each year.
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-02-20
   - Data Source:
     - "Sala Situacional de Dengue": https://www.dge.gob.pe/sala-situacional-dengue/ (data downloaded on 2023-02-19)
-    
+
 - NGO Data [2023-02-27_ngo-data](2023-02-27_ngo-data): A map showing the percentage of population per Oblast in Ukraine, considered as "people in need" according to the Humanitarian Needs Overview of OCHA (as of Feb 15, 2023).
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-02-27
   - Data Source:
     - "Ukraine: Humanitarian Needs Overview": https://data.humdata.org/dataset/ukraine-hno
-    
+
 - Favorite Animal [2023-03-06_favorite-animal](2023-03-06_favorite-animal): A map showing the geographical range for the Andean Bear (*Tremarctos ornatus*).
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-06
   - Data Sources:
     - "Andean Bear": https://www.iucnredlist.org/species/22066/123792952
     - Bear image: https://commons.wikimedia.org/wiki/File:OursChaparriF_(12).jpg
+
+- Earth Imagery [2023-03-13_earth-imagery](2023-03-13_earth-imagery): An elevation map of Perú as a 2D and 3D representation
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-13
+  - Data Source:
+    - Elevation at 30 arcseconds from [geodata](https://github.com/rspatial/geodata)
