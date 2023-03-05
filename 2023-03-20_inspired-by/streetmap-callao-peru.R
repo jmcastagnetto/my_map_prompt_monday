@@ -77,7 +77,7 @@ callao_map <- ggplot() +
   geom_sf(
     data = streets$osm_lines,
     inherit.aes = FALSE,
-    color = "skyblue",
+    color = "white",
     alpha = .8,
     linewidth = .5
   ) +
@@ -86,21 +86,21 @@ callao_map <- ggplot() +
     inherit.aes = FALSE,
     color = "lightcoral",
     alpha = .8,
-    size = .3
+    linewidth = .3
   ) +
   geom_sf(
     data = river$osm_lines,
     inherit.aes = FALSE,
-    color = "white",
+    color = "lightblue",
     alpha = .8,
-    size = 2
+    linewidth = 2
   ) +
   geom_sf(
     data = trains$osm_lines,
     inherit.aes = FALSE,
     color = "yellow",
     alpha = .8,
-    size = 1.2,
+    linewidth = 1.2,
     linetype = "dotdash"
   ) +
   coord_sf(
