@@ -62,6 +62,6 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-20
   - Data Source: [osmdata](https://docs.ropensci.org/osmdata/)
   
-- Recent Environmental Disaster [2023-03-27_recent-environmental-disaster](2023-03-27_recent-environmental-disaster): Maps of regions in Peru for the top three sanctioned institutions for environmental violations, using the information from OEFA.
+- Recent Environmental Disaster [2023-03-27_recent-environmental-disaster](2023-03-27_recent-environmental-disaster): Maps of affected regions in Peru for the top three institutions sanctioned for environmental violations, using the information from OEFA.
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-27
   - Data Source: OEFA - Administrados Sancionados](https://publico.oefa.gob.pe/administrados-sancionados/#/)
