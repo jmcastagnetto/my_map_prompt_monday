@@ -61,3 +61,7 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
 - Inspired by... [2023-03-20_inspired-by](2023-03-20_inspired-by): A streetmap of Callao, Perú, inspired by the excellent article: "[Streetmaps](https://ggplot2tutor.com/streetmaps/streetmaps/)", which uses [ggplot2](https://ggplot2.tidyverse.org/) and [osmdata](https://docs.ropensci.org/osmdata/) to create nice streetmaps of Freiburg. The original article retouched the map afterwards, here I'm trying to use only R.
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-20
   - Data Source: [osmdata](https://docs.ropensci.org/osmdata/)
+  
+- Recent Environmental Disaster [2023-03-27_recent-environmental-disaster](2023-03-27_recent-environmental-disaster): Maps of regions in Peru for the top three sanctioned institutions for environmental violations, using the information from OEFA.
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-27
+  - Data Source: OEFA - Administrados Sancionados](https://publico.oefa.gob.pe/administrados-sancionados/#/)
