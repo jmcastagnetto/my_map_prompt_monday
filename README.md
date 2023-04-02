@@ -65,3 +65,7 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
 - Recent Environmental Disaster [2023-03-27_recent-environmental-disaster](2023-03-27_recent-environmental-disaster): Maps of affected regions in Peru for the top three institutions sanctioned for environmental violations, using the information from OEFA.
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-27
   - Data Source: OEFA - Administrados Sancionados](https://publico.oefa.gob.pe/administrados-sancionados/#/)
+  
+- Bucket List [2023-04-03_bucket-list](2023-04-03_bucket-list): A streetmap of Kumamoto-shi, a place I'd like to visit.
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-03
+  - Using OSM (Open Street Maps) data and the [osmdata](https://cran.r-project.org/web/packages/osmdata/index.html) R package
