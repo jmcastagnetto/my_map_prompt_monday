@@ -69,3 +69,7 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
 - Bucket List [2023-04-03_bucket-list](2023-04-03_bucket-list): A streetmap of Kumamoto-shi, a place I'd like to visit.
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-03
   - Using OSM (Open Street Maps) data and the [osmdata](https://cran.r-project.org/web/packages/osmdata/index.html) R package
+  
+- Topography [2023-04-10_topography](2023-04-10_topography): A map of the Andes and the countries they pass through.
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-10
+  - Data Source: Natural Earth (https://www.naturalearthdata.com/)
