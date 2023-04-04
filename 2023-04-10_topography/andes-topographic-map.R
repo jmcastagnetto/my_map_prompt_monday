@@ -73,7 +73,7 @@ andes_map <- ggplot() +
     xlim = c(-80, -55),
     ylim = c(-55, 12)
   )
-andes_map
+#andes_map
 ggsave(
   plot = andes_map,
   filename = "2023-04-10_topography/andes-topographic-map.png",
