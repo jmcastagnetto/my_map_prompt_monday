@@ -73,3 +73,8 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
 - Topography [2023-04-10_topography](2023-04-10_topography): A map of the Andes and the countries they pass through.
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-10
   - Data Source: Natural Earth (https://www.naturalearthdata.com/)
+  
+- Environment [2023-04-17_environment](2023-04-17_environment): A small-mutiple set of plots, showing how much of a country's forest are has been lost over the years in South America.
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-17
+  - Data Source: "Global Forest Resources Assessment
+2020" (https://fra-data.fao.org/assessments/fra/2020)
