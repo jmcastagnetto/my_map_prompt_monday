@@ -60,7 +60,7 @@ andes_map <- ggplot() +
     plot.title = element_text(size = 18, face = "bold", hjust = 0.5),
     plot.subtitle = element_text(color = "gray50", size = 14, hjust = 0.5),
     plot.caption = element_text(
-      family = "Inconsalata", size = 8, hjust = 0.5
+      family = "Inconsolata", size = 8, hjust = 0.5
     ),
     plot.margin = unit(rep(.1, 4), "cm")
   ) +
