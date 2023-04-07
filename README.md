@@ -78,3 +78,7 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-17
   - Data Source: "Global Forest Resources Assessment
 2020" (https://fra-data.fao.org/assessments/fra/2020)
+
+- Disease [2023-04-24_disease](2023-04-24_disease): A map showing the distribution of Dengue cases in Perú (2023, epiweek #13).
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-24
+  - Data Source: "Sala virtual de situación de salud, CDC Perú // Situación actual de Dengue epiweek 13 - 2023" https://www.dge.gob.pe/salasituacional/sala/index/salasit_dash/143
