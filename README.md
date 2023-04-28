@@ -82,3 +82,10 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
 - Disease [2023-04-24_disease](2023-04-24_disease): A map showing the distribution of Dengue cases in Perú (2023, epiweek #13).
   - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-24
   - Data Source: "Sala virtual de situación de salud, CDC Perú // Situación actual de Dengue epiweek 13 - 2023" https://www.dge.gob.pe/salasituacional/sala/index/salasit_dash/143
+
+- Urban vs Rural [2023-05-01_urban-rural](2023-05-01_urban-rural): A small multiple of maps showing the regional change of the percentage of urban population in Perú over the years, using census data from the INEI (Instituto Nacional de Estadística e Informática).
+  - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-05-01
+  - Data Source: https://www.inei.gob.pe/estadisticas/indice-tematico/poblacion-y-vivienda/
+    - Urban: https://www.inei.gob.pe/media/MenuRecursivo/indices_tematicos/pob_04_1.xls
+    - Rural: https://www.inei.gob.pe/media/MenuRecursivo/indices_tematicos/pob_05_1.xls
+    - XLS files converted and partially cleaned up into CSV files

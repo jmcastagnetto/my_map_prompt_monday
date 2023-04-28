@@ -12,6 +12,8 @@ dengue <- read_csv("2023-04-24_disease/Texto 9_data.csv") %>%
     crs = crs("wgs84")
   )
 
+sum(dengue$casos, na.rm = T)
+
 peru <- gadm(country = "Peru", level = 1, path = "common-data/") %>%
   st_as_sf()
 
