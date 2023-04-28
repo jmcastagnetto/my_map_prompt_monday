@@ -110,7 +110,7 @@ peru_urban_pop_map <- ggplot(peru_df) +
     plot.margin = unit(rep(1, 4), "cm"),
     plot.background = element_rect(fill = "white", color = "white")
   )
-peru_urban_pop_map
+#peru_urban_pop_map
 ggsave(
   plot = peru_urban_pop_map,
   filename = "2023-05-01_urban-rural/peru-change-urban-population-by-region.png",
