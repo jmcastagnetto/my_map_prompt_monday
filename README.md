@@ -144,3 +144,16 @@ A simple map showing the number of natural tourist attractions in each region of
   - Rural: https://www.inei.gob.pe/media/MenuRecursivo/indices_tematicos/pob_05_1.xls
   - XLS files converted and partially cleaned up into CSV files
 
+## Home
+
+[2023-05-08_home](2023-05-08_home): An elevation map of Lima Metropolitana, where I live
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-05-08
+- Inspiration: https://milospopovic.net/crisp-topography-map-with-r/
+
+## Proportional Symbols
+
+[2023-05-15_propotional-symbols](2023-05-15_propotional-symbols): A couple of maps showing the number of protests and riots per region in Peru, from January 2022 to April 2023.
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-05-15
+- Data Source: Armed Conflict Location & Event Data Project (ACLED); https://www.acleddata.com
