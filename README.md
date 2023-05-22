@@ -36,7 +36,7 @@ A simple map showing the number of natural tourist attractions in each region of
 
 ## Flow Map
 
-[2023-01-30_flow-map](2023-01-30_flow-map)]: A map of the locations visited in the book ["Around the World in Eighty Days" by Jules Verne](https://www.gutenberg.org/ebooks/103) (link to ebook at the Gutenberg project)
+[2023-01-30_flow-map](2023-01-30_flow-map): A map of the locations visited in the book ["Around the World in Eighty Days" by Jules Verne](https://www.gutenberg.org/ebooks/103) (link to ebook at the Gutenberg project)
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-30
 - Data Source:
@@ -96,21 +96,21 @@ A simple map showing the number of natural tourist attractions in each region of
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-20
 - Data Source: [osmdata](https://docs.ropensci.org/osmdata/)
-  
+
 ## Recent Environmental Disaster
 
 [2023-03-27_recent-environmental-disaster](2023-03-27_recent-environmental-disaster): Maps of affected regions in Peru for the top three institutions sanctioned for environmental violations, using the information from OEFA.
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-27
 - Data Source: [OEFA - Administrados Sancionados](https://publico.oefa.gob.pe/administrados-sancionados/#/)
-  
+
 ## Bucket List 
 
 [2023-04-03_bucket-list](2023-04-03_bucket-list): A streetmap of Kumamoto-shi, a place I'd like to visit.
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-03
 - Using OSM (Open Street Maps) data and the [osmdata](https://cran.r-project.org/web/packages/osmdata/index.html) R package
-  
+
 ## Topography 
 
 [2023-04-10_topography](2023-04-10_topography): A map of the Andes and the countries they pass through.
@@ -135,7 +135,6 @@ A simple map showing the number of natural tourist attractions in each region of
 
 ## Urban vs Rural 
 
-
 [2023-05-01_urban-rural](2023-05-01_urban-rural): A small multiple of maps showing the regional change of the percentage of urban population in Perú over the years, using census data from the INEI (Instituto Nacional de Estadística e Informática).
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-05-01
@@ -157,3 +156,10 @@ A simple map showing the number of natural tourist attractions in each region of
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-05-15
 - Data Source: Armed Conflict Location & Event Data Project (ACLED); https://www.acleddata.com
+
+## Book Cover
+
+[2023-05-23_book-cover](2023-05-23_book-cover): Trying my hand at making a book cover, using an elevation map of Perú, and some tweaks with Gimp and ImageMagick.
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-05-22
+- Inspired by: [How to create a crisp topographic map in R](https://milospopovic.net/crisp-topography-map-with-r/) by Milos Popovic
