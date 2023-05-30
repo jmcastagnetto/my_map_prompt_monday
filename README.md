@@ -159,7 +159,14 @@ A simple map showing the number of natural tourist attractions in each region of
 
 ## Book Cover
 
-[2023-05-23_book-cover](2023-05-23_book-cover): Trying my hand at making a book cover, using an elevation map of Perú, and some tweaks with Gimp and ImageMagick.
+[2023-05-22_book-cover](2023-05-22_book-cover): Trying my hand at making a book cover, using an elevation map of Perú, and some tweaks with Gimp and ImageMagick.
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-05-22
 - Inspired by: [How to create a crisp topographic map in R](https://milospopovic.net/crisp-topography-map-with-r/) by Milos Popovic
+
+## Climate Change Vulnerability
+
+[2023-05-29_climate-change-vulnerability](2023-05-29_climate-change-vulnerability): A small multiple of how annual precipitation has changed in the regions of Peru, compared to the [1901-1930] period. Most of the regions in the south are getting drier, while those in the north are getting wetter over time. This is more noticeable comparing the base period with the [1991-2020] period.
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-05-29
+- Data Source: [Climate Change Knowledge Portal - Peru](https://climateknowledgeportal.worldbank.org/country/peru)
