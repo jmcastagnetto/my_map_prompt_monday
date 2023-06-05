@@ -170,3 +170,10 @@ A simple map showing the number of natural tourist attractions in each region of
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-05-29
 - Data Source: [Climate Change Knowledge Portal - Peru](https://climateknowledgeportal.worldbank.org/country/peru)
+
+## Safety
+
+[2023-06-05_safety](2023-06-05_safety): A map showing the total number of reported vehicle collisions per million, for 2020 in each region in Peru. 
+
+- Propmt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-06-05
+- Data SOurce: [Accidentes de Tránsito en Carreteras](https://www.datosabiertos.gob.pe/dataset/accidentes-de-tr%C3%A1nsito-en-carreteras) (SUTRAN)
