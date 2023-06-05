@@ -3,6 +3,8 @@
 library(tidyverse)
 library(sf)
 library(geodata)
+library(ggspatial)
+library(rosm)
 
 accidentes <- read_delim(
   "https://www.datosabiertos.gob.pe/sites/default/files/Accidentes%20de%20tr%C3%A1nsito%20en%20carreteras-2020-2021-Sutran.csv",
@@ -62,18 +64,23 @@ plot_df <- peru %>%
   filter(!is.na(deaths))
 
 plot_map <- ggplot() +
-  geom_sf(data = plot_df, aes(fill = deaths_per_1M)) +
+  annotation_map_tile(
+     type = "hotstyle",
+     zoomin = 0
+  ) +
+  geom_sf(data = plot_df, aes(fill = deaths_per_1M), alpha = .5, color = "gray80") +
   geom_sf_text(
     data = plot_df,
     aes(label = sprintf("%.1f", deaths_per_1M)),
-    size = 4.5
+    size = 4.5,
+    fontface = "bold"
   ) +
   scale_fill_distiller(
     palette = "Reds",
     direction = 1
   ) +
   labs(
-    title = "Deaths per million by vehicle crashes in highways in Peru (2020)",
+    title = "Deaths per million by vehicle collisions in highways in Peru (2020)",
     subtitle = "Source: 'Accidentes de Tránsito en Carreteras' (SUTRAN)",
     caption = "#MapPromptMonday 2023-06-05\n@jmcastagnetto@mastodon.social\nJesus M. Castagnetto"
   ) +
