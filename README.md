@@ -176,4 +176,11 @@ A simple map showing the number of natural tourist attractions in each region of
 [2023-06-05_safety](2023-06-05_safety): A map showing the total number of reported vehicle collisions per million, for 2020 in each region in Peru. 
 
 - Propmt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-06-05
-- Data SOurce: [Accidentes de Tránsito en Carreteras](https://www.datosabiertos.gob.pe/dataset/accidentes-de-tr%C3%A1nsito-en-carreteras) (SUTRAN)
+- Data Source: [Accidentes de Tránsito en Carreteras](https://www.datosabiertos.gob.pe/dataset/accidentes-de-tr%C3%A1nsito-en-carreteras) (SUTRAN)
+
+## Artic or Antarctic
+
+[2023-06-12_artic_or_antartic](2023-06-12_artic_or_antartic): A map showing the locations of Machu Picchu in Peru, and the "Machu Picchu" Peruvian Research Base in Antarctica.
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-06-12
+- Data Sources: Open Stree Maps, Natural Earth
