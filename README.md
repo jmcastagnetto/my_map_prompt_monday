@@ -185,6 +185,8 @@ A simple map showing the number of natural tourist attractions in each region of
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-06-12
 - Data Sources: Open Stree Maps, Natural Earth
 
+## Solstice/Seasons
+
 [2023-06-19_solstice-seasons](2023-06-19_solstice-seasons): Maps showing the changes in max. and min. temperatures for the Summer months (Dec., Jan., Feb.) for each region of Peru, comparing the [1901-1930] and [1991-2020] periods. The min. temperature has increased in all cases, whereas the max. temperature has gone up for 21 of 25 regions.
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-06-19
