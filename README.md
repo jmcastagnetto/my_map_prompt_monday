@@ -191,3 +191,10 @@ A simple map showing the number of natural tourist attractions in each region of
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-06-19
 - Data Source: https://climateknowledgeportal.worldbank.org/download-data 
+
+## Plants
+
+[2023-06-23_plants](2023-06-23_plants): Maps showing the percent tree coverage loss for 2000 and 2022 in South America, using the `TCL` index from the report: Wolf, M. J., Emerson, J. W., Esty, D. C., de Sherbinin, A., Wendling, Z. A., et al. (2022). *2022 Environmental Performance Index*. New Haven, CT: Yale Center for Environmental Law & Policy. epi.yale.edu
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-06-26
+- Data Source: https://search.earthdata.nasa.gov/search?p=C2586824658-SEDAC&q=peru&gdf=CSV&lat=17.5&zoom=0
