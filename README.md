@@ -198,3 +198,10 @@ A simple map showing the number of natural tourist attractions in each region of
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-06-26
 - Data Source: https://search.earthdata.nasa.gov/search?p=C2586824658-SEDAC&q=peru&gdf=CSV&lat=17.5&zoom=0
+
+## Snow or Ice
+
+[2023-07-03_snow-or-ice](2023-07-03_snow-or-ice): A map showing the glacier areas in Peru as of 2021, according to the data from the: GLIMS Consortium. 2005. *GLIMS Glacier Database, Version 1*. Boulder, Colorado USA. NASA. National Snow and Ice Data Center Distributed Active Archive Center. doi: https://doi.org/10.7265/N5V98602. [2023-06-30]
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-07-03
+- Data Source: https://nsidc.org/data/nsidc-0272/versions/1
