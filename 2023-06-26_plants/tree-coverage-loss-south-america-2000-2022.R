@@ -2,6 +2,13 @@ library(tidyverse)
 library(rnaturalearth)
 library(sf)
 
+# Windows has issues with loading fonts sometimes, unlike Linux
+# (I try to test my R code in Win once in a blue moon)
+if (.Platform$OS.type == "windows") {
+  library(extrafont)
+  loadfonts(device = "win", quiet = TRUE)
+}
+
 world <- ne_countries(scale = 110, returnclass = "sf")
 
 tcl <- read_csv(

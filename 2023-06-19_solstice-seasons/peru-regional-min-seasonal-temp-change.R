@@ -1,9 +1,13 @@
 library(tidyverse)
 library(sf)
 library(geodata)
-library(extrafont)
 
-loadfonts(device = "win", quiet = TRUE)
+# Windows has issues with loading fonts sometimes, unlike Linux
+# (I try to test my R code in Win once in a blue moon)
+if (.Platform$OS.type == "windows") {
+  library(extrafont)
+  loadfonts(device = "win", quiet = TRUE)
+}
 
 load_raw <- function(fname) {
   period <- str_extract(fname, "\\d{4}-\\d{4}")
