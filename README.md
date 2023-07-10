@@ -205,3 +205,12 @@ A simple map showing the number of natural tourist attractions in each region of
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-07-03
 - Data Source: https://nsidc.org/data/nsidc-0272/versions/1
+
+## Deserts
+
+[2023-07-10_deserts](2023-07-10_deserts): A map showing the location of healthcare centers that are within the desert ecoregion of Peru ("Desierto Costanero del Pacifico Peruano"), using the classification of 11 ecosystems used by MINAM (Ministerio del Ambiente).
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-07-10
+- Data Sources:
+  - Ecoregions: http://catalogo.geoidep.gob.pe/metadata/srv/eng/catalog.search#/metadata/986cc423-ff58-43c9-a15e-8fa668eb355d
+  - Location of healthcare centers: https://visor.geoperu.gob.pe/ (https://cdn.geoperu.gob.pe/visor/descargas/data/GeoPeru-instituciones_salud.xlsx)
