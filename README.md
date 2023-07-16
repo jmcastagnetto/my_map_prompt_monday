@@ -214,3 +214,10 @@ A simple map showing the number of natural tourist attractions in each region of
 - Data Sources:
   - Ecoregions: http://catalogo.geoidep.gob.pe/metadata/srv/eng/catalog.search#/metadata/986cc423-ff58-43c9-a15e-8fa668eb355d
   - Location of healthcare centers: https://visor.geoperu.gob.pe/ (https://cdn.geoperu.gob.pe/visor/descargas/data/GeoPeru-instituciones_salud.xlsx)
+  
+## Desserts
+
+[2023-07-17_desserts](2023-07-17_desserts): A composite plot showing a choropleth and a a line plot of the growth of harversted areas for cocoa beans in South America from 1961 to 2021, using data from FAO.
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-07-17
+- Data Source: https://www.fao.org/faostat/en/#data/QCL
