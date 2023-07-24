@@ -224,7 +224,7 @@ A simple map showing the number of natural tourist attractions in each region of
 
 ## Natural Wonders
 
-[2023-07-14_natural-wonders](2023-07-14_natural-wonders): A map showing all natural protected areas in Peru, using as background tiles from Thunderforest.
+[2023-07-24_natural-wonders](2023-07-24_natural-wonders): A map showing all natural protected areas in Peru, using as background tiles from Thunderforest.
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-07-24
 - Data Source: SENARNP (MINAM), https://geo.sernanp.gob.pe/visorsernanp/
