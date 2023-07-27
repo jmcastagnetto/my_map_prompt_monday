@@ -4,9 +4,7 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
 
 ## Region(s)
 
-[2023-01-02_regions](2023-01-02_regions)
-
-A simple map showing the number of natural tourist attractions in each region of Perú.
+[2023-01-02_regions](2023-01-02_regions): A simple map showing the number of natural tourist attractions in each region of Perú.
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-02
 - Data source: https://www.datosabiertos.gob.pe/dataset/inventario-nacional-de-recursos-tur%C3%ADsticos
@@ -80,7 +78,7 @@ A simple map showing the number of natural tourist attractions in each region of
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-03-06
 - Data Sources:
-  - "Andean Bear": https://www.iucnredlist.org/species/22066/123792952
+  - Andean Bear: https://www.iucnredlist.org/species/22066/123792952
   - Bear image: https://commons.wikimedia.org/wiki/File:OursChaparriF_(12).jpg
 
 ## Earth Imagery
@@ -123,8 +121,7 @@ A simple map showing the number of natural tourist attractions in each region of
 [2023-04-17_environment](2023-04-17_environment): A small-mutiple set of plots, showing how much of a country's forest are has been lost over the years in South America.
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-04-17
-- Data Source: "Global Forest Resources Assessment
-2020" (https://fra-data.fao.org/assessments/fra/2020)
+- Data Source: "Global Forest Resources Assessment 2020" (https://fra-data.fao.org/assessments/fra/2020)
 
 ## Disease
 
