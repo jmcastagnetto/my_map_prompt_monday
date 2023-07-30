@@ -225,3 +225,10 @@ Ref: [https://github.com/MapPromptMonday/MapPromptMonday](https://github.com/Map
 
 - Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-07-24
 - Data Source: SENARNP (MINAM), https://geo.sernanp.gob.pe/visorsernanp/
+
+## Health
+
+[2023-07-31_health](2023-07-31_health): A map of dengue cases and deaths at the province level in Peru, with data from DGE/MINSA as of 2023-07-26.
+
+- Prompt: https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-07-31
+- Data Source: DGE, Fuente: https://www.dge.gob.pe/sala-situacional-dengue/diaria/
